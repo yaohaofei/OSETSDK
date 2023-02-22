@@ -9,6 +9,6 @@
 
 @implementation OSETTestObject
 -(void)testObject{
-    NSLog(@"123");
+    NSLog(@"321");
 }
 @end
