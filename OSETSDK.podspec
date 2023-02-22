@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "OSETSDK", "OSETSDK/**/*.{h,m}"
   s.frameworks = "Foundation", "UIKit"
-  #s.dependency 'LixMacro', '~> 0.0.3'
+    ##s.dependency 'LixMacro', '~> 0.0.3'
 
 end
