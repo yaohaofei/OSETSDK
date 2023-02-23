@@ -14,10 +14,11 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/yaohaofei/OSETSDK.git", :tag => "#{s.version}" }
 
-  s.source_files  = "OSETSDK", "OSETSDK/OSETSDK.framework/Headers/*.{h,m}"
+  s.source_files  = "OSETSDK", "OSETSDK.framework/Headers/*.{h}"
   s.frameworks = "Foundation", "UIKit"
     ##s.dependency 'LixMacro', '~> 0.0.3'
-  s.vendored_frameworks = 'OSETSDK/OSETSDK.framework'
+  s.vendored_frameworks = 'OSETSDK.framework'
 s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
 
 end
+
