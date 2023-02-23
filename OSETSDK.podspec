@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "OSETSDK"
-  s.version      = "4.8.0.3"
-  s.summary      = "Objective-C编程基础工具类"
+  s.version      = "4.8.0.4"
+  s.summary      = "AdSet广告对接聚合类"
 
   s.homepage     = "https://github.com/yaohaofei/OSETSDK"
 
@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "OSETSDK", "OSETSDK.framework/Headers/*.{h}"
   s.frameworks = "Foundation", "UIKit"
-    ##s.dependency 'LixMacro', '~> 0.0.3'
-  s.vendored_frameworks = 'OSETSDK.framework'
+    #s.dependency 'LixMacro', '~> 0.0.3'
+    #s.vendored_frameworks = 'OSETSDK.framework'
 s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
 
 end
