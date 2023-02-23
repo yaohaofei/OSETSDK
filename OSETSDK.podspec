@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OSETSDK"
-  s.version      = "4.8.0.2"
+  s.version      = "4.8.0.3"
   s.summary      = "Objective-C编程基础工具类"
 
   s.homepage     = "https://github.com/yaohaofei/OSETSDK"
